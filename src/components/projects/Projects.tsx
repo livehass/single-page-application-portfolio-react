@@ -46,7 +46,7 @@ function Projects() {
                         </div>
                     </div>
                     <div id="card " className="w-auto  rounded-3xl bg-slate-950  ">
-                        <img className="w-auto rounded-3xl " src="/public/projects/travelbackpack.png" alt="logo project" />
+                        <img className="w-auto rounded-3xl " src="/public/projects/ecofamily.png" alt="logo project" />
                         <p className="w-auto text-left mx-5 mt-3 text-white text-3xl font-bold text-wrap">Oshere - All about movies, tv-series, and communities.</p>
                         <p className="w-auto text-left mx-5 text-slate-400 font-bold text-2xl mt-2 text-wrap">Oshere is a media project that lists many movies and television series. Every form of media has a community (chat forum) that any authenticated user may start.</p>
                         <p className="w-auto text-center text-slate-400 font-bold text-2xl mt-2 text-wrap">In addition, users can conduct media searches.</p>
@@ -80,7 +80,7 @@ function Projects() {
                         </div>
                     </div>
                     <div id="card " className="w-auto  rounded-3xl bg-slate-950 mt-10 mb-10 ">
-                        <img className="w-auto rounded-3xl " src="/public/projects/travelbackpack.png" alt="logo project" />
+                        <img className="w-auto rounded-3xl " src="/public/projects/blogpessoal.png" alt="logo project" />
                         <p className="w-auto text-left mx-5 mt-3 text-white text-3xl font-bold text-wrap">Oshere - All about movies, tv-series, and communities.</p>
                         <p className="w-auto text-left mx-5 text-slate-400 font-bold text-2xl mt-2 text-wrap">Oshere is a media project that lists many movies and television series. Every form of media has a community (chat forum) that any authenticated user may start.</p>
                         <p className="w-auto text-center text-slate-400 font-bold text-2xl mt-2 text-wrap">In addition, users can conduct media searches.</p>

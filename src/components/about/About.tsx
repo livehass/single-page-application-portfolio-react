@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
+import { useRef } from 'react';
 
 
 function About(){
+    const projectsRef = useRef<HTMLDivElement | null>(null);
     return (
         <>     <div id="about" className="bg-slate-800 w-auto">
                     <div className="text-center mt-10 py-10">
@@ -11,7 +13,15 @@ function About(){
                 <div className="text-white text-left grid grid-cols-2 gap-5 mx-32 mt-10">
                     <div className="w-auto">
                         <h2 className="font-bold text-4xl ">Want to know me?</h2>
-                        <p className="text-slate-400 font-bold text-2xl text-wrap mb-3 mt-3">I'm a Fullstack Developer passionate about crafting interactive, accessible, and responsive websites. Check out my <a className="text-blue-700 hover:text-blue-600" href="">projects section </a> 
+                        <p className="text-slate-400 font-bold text-2xl text-wrap mb-3 mt-3">I'm a Fullstack Developer passionate about crafting interactive, accessible, and responsive websites. Check out my <button  
+                        className="text-blue-700 hover:text-blue-600" 
+                         onClick={() => {
+                            const element = document.getElementById('projects');
+                            element.scrollIntoView({
+                              behavior: 'smooth'
+                            })
+                          }}
+                        >projects section </button> 
                         for some of the beautiful websites I've built.
                         <p className="text-slate-400 font-bold text-2xl text-wrap mt-6">I'm currently open to Job opportunities where I can contribute to your business and create delightful user experiences. 
                         Feel free to contact me if you find my skills useful.

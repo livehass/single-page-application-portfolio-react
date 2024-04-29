@@ -5,7 +5,7 @@ function Projects() {
     const projectsRef = useRef<HTMLDivElement | null>(null);
     return (
         <>
-            <div ref={projectsRef} id="projects" className="bg-slate-800 w-auto font-bold pb-10">                                           
+            <div ref={projectsRef} id="projects" className="bg-slate-800 w-auto font-bold pb-20">                                           
                 <div className="text-center py-10">
                     <h2 className="text-4xl text-white font-bold text-center  uppercase">Pr
                         <a className="underline decoration-4 underline-offset-8 uppercase decoration-blue-600 ">

@@ -21,7 +21,7 @@ function Projects() {
                         <img className="object-fill max-w-lg rounded-3xl " src="/public/projects/travelbackpack.png" alt="logo project" />
                         <p className="max-w-md text-left m-4  text-white text-3xl font-bold text-wrap">
                             Travel backpack with localStorage
-                        </p>
+                        </p> 
                         <p className="max-w-md text-left mx-3 text-white font-bold text-2xl mt-2 text-wrap">
                             JavaScript for the application logic HTML/CSS for structure and styling, localStorage for storing data 
                             locally in the browser, and JSON Fetch for loading new items from an external source..

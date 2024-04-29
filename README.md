@@ -1,28 +1,93 @@
-#  A Simple Blog Project Using React + TypeScript + Vite
+# Documentation for Personal Blog using React, Vite, and Yarn with TypeScript
 
-Currently, two official plugins are available:
+## Introduction:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This documentation provides a guide on setting up a personal blog using React, Vite, and Yarn with TypeScript. The blog serves as a platform to showcase personal projects and demonstrate skills.
 
-## Expanding the ESLint configuration
+## Prerequisites:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Ensure you have Node.js installed on your system.
 
-- Configure the top-level `parserOptions` property like this:
+## Setup:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. **Create React App with Vite:**
+   - Install Vite globally:
+     ```
+     npm install -g create-vite
+     ```
+   - Create a new React project with Vite:
+     ```
+     create-vite my-blog --template react-ts
+     ```
+   
+2. **Navigate to the project directory:**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+cd my-blog
+
+3. **Install Dependencies:**
+
+## Folder Structure:
+
+├── public/
+│ ├── projects/
+│ └── files
+│
+├── src/
+│ ├── components/
+│ │ ├── Header.tsx
+│ │ ├── Footer.tsx
+│ │ ├── Projects.tsx
+│ │ └── About.tsx
+│ ├── pages/
+│ │ ├── Home.tsx
+│ │ ├── Home.css
+│ │ 
+│ │
+│ ├── App.tsx
+│ ├── index.tsx
+│ └── ...
+│
+├── .gitignore
+├── package.json
+└── ...
+
+## Key Components:
+
+- **Header.tsx:** Component for the website header.
+- **Footer.tsx:** Component for the website footer.
+- **Home.tsx:** Home page component displaying personal information and projects.
+- **Blog.tsx:** Blog page component showcasing blog posts.
+
+## Running the Project:
+
+This command generates a production build of the project.
+
+## Deployment:
+
+Deploy your static website to platforms like Vercel, Netlify, or GitHub Pages.
+
+## Conclusion:
+
+This documentation outlines the setup and structure of a personal blog using React, Vite, and Yarn with TypeScript. Customize the content and design according to your preferences to showcase your personal projects and skills effectively.
+ ## Install
+
+ ```lua
+ npm install -g create-vite
+
+ ```
+
+ ## Create a new React project with Vite:
+
+```lua
+  create-vite my-blog --template react-ts
+
+ ```
+ ### bash
+  ```bash
+  cd my-blog
+ ```
+
+ ### Install Dependencies:
+```bash
+  yarn install
+ ```

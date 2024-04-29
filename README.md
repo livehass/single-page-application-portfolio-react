@@ -1,4 +1,4 @@
-# Documentation for Personal Blog using React, Vite, and Yarn with TypeScript
+# Personal Blog using React, Vite, and Yarn with TypeScript
 
 ## Introduction:
 

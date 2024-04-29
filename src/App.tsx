@@ -6,7 +6,6 @@ import Navbar from './components/NavBar/NavBar';
 import Home from './pages/home/Home';
 
 function App() {
-  
   return (
     <>
         <BrowserRouter>

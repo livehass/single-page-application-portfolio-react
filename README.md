@@ -27,7 +27,7 @@ cd my-blog
 3. **Install Dependencies:**
 
 ## Folder Structure:
-
+```lua
 ├── public/
 │ ├── projects/
 │ └── files
@@ -50,7 +50,7 @@ cd my-blog
 ├── .gitignore
 ├── package.json
 └── ...
-
+```
 ## Key Components:
 
 - **Header.tsx:** Component for the website header.

@@ -67,8 +67,8 @@ function Navbar() {
             }}
             className='hover:underline'>PROJECTS</button>
           </a>
-        </li>  
-      </ul>
+        </li>
+      </ul>     
     </div>
   </div>
 </nav>
